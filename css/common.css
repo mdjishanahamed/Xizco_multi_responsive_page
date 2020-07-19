@@ -1,0 +1,124 @@
+
+/*GOOGLE FONT*/
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Montserrat:wght@400;500;600;700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+ul{
+    list-style: none;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+
+p{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 400;
+}
+
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+button:focus {
+	outline: 0;
+}
+
+.bg_cover{
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+.custom-container{
+	padding: 0 70px;
+}
+
+.clr{
+    clear: both;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+/*ALL SECTION TITLE HERE*/
+
+.section_title{}
+
+.section_title h2 {
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #000757;
+	text-align: center;
+}
+
+.section_title span {
+	display: inline-block;
+	width: 200px;
+	height: 2px;
+	background: #eaeaea;
+	position: relative;
+	text-align: center;
+	left: 25%;
+}
+
+.section_title span:before{
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 5px;
+    background: #0083ff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+/*all buttons style here*/
+.theme_btn {
+	background: #0083ff;
+	padding: 15px 25px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 500;
+	font-family: 'Montserrat', sans-serif;
+	transition: all .3s linear;
+}
+
+.theme_btn:hover{
+	color: #fff;
+}
+
+:root{
+    --themecolor :#000757;
+}
+
+/*END OF COMMON CSS*/
